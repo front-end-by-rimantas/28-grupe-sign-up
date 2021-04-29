@@ -33,6 +33,12 @@ input {
   color: #999;
   font-style: italic;
 }
+input:focus {
+  background-color: yellow;
+}
+input:focus-visible {
+  outline-color: red;
+}
 
 button {
   float: left;
@@ -43,4 +49,8 @@ button {
   font-size: 18px;
   line-height: 20px;
   border-radius: 21px;
+}
+button:hover {
+  background-color: #0c3c80;
+  cursor: pointer;
 }
